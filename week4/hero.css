@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 80px;
+    min-height: 100vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info>span {
+    color: rgb(203, 32, 32);
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.title {
+    color: white;
+    font-size: 52px;
+}
+
+.title>span {
+    color: rgb(203, 32, 32);
+}
+
+.para {
+    color: white;
+    line-height: 1.7;
+    opacity: 0.85;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn1 {
+    background: rgb(203, 32, 32);
+    color: white;
+}
+
+.btn2 {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.stats {
+    display: flex;
+    gap: 32px;
+    color: white;
+}
+
+.stats>div {
+    flex-direction: column;
+}
+
+.stats h1 {
+    font-size: 32px;
+}
+
+.stats p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+
+.picture {
+    height: 380px;
+    width: 340px;
+    overflow: visible;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.picture img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.picture button {
+    position: absolute;
+    z-index: 1;
+    background: red;
+    color: black;
+    bottom: 0;
+    left: -30px;
+    padding: 12px 12px;
+    border-radius: 8px;
+    border: none;
+
+}

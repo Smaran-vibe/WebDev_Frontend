@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootcamp Signup</title>
+</head>
+
+<body>
+
+  <h1>Bootcamp Signup Form</h1>
+
+  <form action="/submit" method="POST">
+
+    <label for="fullname">Full Name</label><br />
+    <input type="text" id="fullname" name="fullname" placeholder="Smaran Aryal" required /><br /><br />
+
+    <label for="email">Email</label><br />
+    <input type="email" id="email" name="email" placeholder="smaran@example.com" required /><br /><br />
+
+    <label for="dob">Date of Birth</label><br />
+    <input type="date" id="dob" name="dob" /><br /><br />
+
+    <label for="phone">Phone Number</label><br />
+    <input type="tel" id="phone" name="phone" placeholder="+977 98XXXXXXXX" /><br /><br />
+
+    <label for="favcolor">Favorite Color</label><br />
+    <input type="color" id="favcolor" name="favcolor" /><br /><br />
+
+    <fieldset>
+      <legend>Experience Level</legend>
+
+      <input type="radio" id="beginner" name="experience" value="beginner" />
+      <label for="beginner">Beginner</label><br />
+
+      <input type="radio" id="intermediate" name="experience" value="intermediate" />
+      <label for="intermediate">Intermediate</label><br />
+
+      <input type="radio" id="advanced" name="experience" value="advanced" />
+      <label for="advanced">Advanced</label>
+    </fieldset><br />
+
+    <fieldset>
+      <legend>Interests</legend>
+
+      <input type="checkbox" id="frontend" name="interests" value="frontend" />
+      <label for="frontend">Frontend</label><br />
+
+      <input type="checkbox" id="backend" name="interests" value="backend" />
+      <label for="backend">Backend</label><br />
+
+      <input type="checkbox" id="ai" name="interests" value="ai" />
+      <label for="ai">AI</label><br />
+
+      <input type="checkbox" id="mobile" name="interests" value="mobile" />
+      <label for="mobile">Mobile</label>
+    </fieldset><br />
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+  </form>
+
+</body>
+
+</html>

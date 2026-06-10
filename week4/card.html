@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+        width: 95vw;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding: 15px 10px;
+    }
+
+    .card {
+        width: 20%;
+        height: 66%;
+        overflow-y: hidden;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #384027;
+
+
+    }
+
+    .image {
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+        height: 80%;
+        width: 95%;
+        padding: 7px 0px;
+        color: #C5CBBE;
+        margin-bottom: 15px;
+
+
+    }
+
+
+    .image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 40px;
+    }
+    .image h1{
+        margin-top: 5px;
+        padding: 0px 10px;
+    }
+
+    .cap {
+        
+        padding: 1px 6px;
+        border-radius: 6px;
+        background: #4A5836;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        color: white;
+        padding: 10px 0px;
+        margin-top: 5px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="kiwi.jpg" alt="">
+                <h1>Kiwi Juice</h1>
+            </div>
+            <div class="info">
+                <div class="capsule">
+                    <span class="cap cap1">Kiwi</span>
+                    <span class="cap cap2">Milk</span>
+                    <span class="cap cap3">Icecream</span>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <h2>12$</h2>
+                        <p>Order Now</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="kiwi.jpg" alt="">
+                <h1>Kiwi Juice</h1>
+            </div>
+            <div class="info">
+                <div class="capsule">
+                    <span class="cap cap1">Kiwi</span>
+                    <span class="cap cap2">Milk</span>
+                    <span class="cap cap3">Icecream</span>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <h2>12$</h2>
+                        <p>Order Now</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+       
+        <div class="card">
+            <div class="image">
+                <img src="kiwi.jpg" alt="">
+                <h1>Kiwi Juice</h1>
+            </div>
+            <div class="info">
+                <div class="capsule">
+                    <span class="cap cap1">Kiwi</span>
+                    <span class="cap cap2">Milk</span>
+                    <span class="cap cap3">Icecream</span>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <h2>12$</h2>
+                        <p>Order Now</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

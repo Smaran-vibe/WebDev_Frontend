@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #container {
+        background: rgb(255, 253, 25);
+        color: white;
+        height: 100vh;
+        display: flex;
+        justify-content: center; /* horizontal axis */ 
+        justify-content: end; /* horizontal axis */ 
+        justify-content: space-between; /* horizontal axis */ 
+        justify-content: space-around; /* horizontal axis */ 
+        align-items: center;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-content: center; /*only when there is flex wrap wrap */
+    }
+
+    .item {
+        background: rgb(212, 170, 170);
+        color: white;
+        height: 100px;
+        width: 100px;
+        margin: 0 10px 10px 10px;
+        
+    }
+
+    /* #item1{
+        background: rgba(244,233,255);
+    }
+
+    #item2{
+        background: rgb(128, 222, 222);
+    }
+
+    .item:nth-child(3){
+        background: red;
+        
+    }
+
+    .item:nth-child(4){
+        background: purple;
+    } */
+
+    .item:nth-child(even){
+        background-color: rgb(128, 222, 222);
+    }
+
+    .item:nth-child(odd){
+        background: greenyellow;
+    }
+
+
+</style>
+
+<body>
+    <div id="container">
+        <div class="item" id="item1">1</div>
+        <div class="item" id="item2">2</div>
+        <div class="item" id="item3">3</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item4">4</div>
+    </div>
+</body>
+
+</html>
